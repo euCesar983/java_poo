@@ -104,6 +104,8 @@ if (!a) {
 }
 ```
 
+<h2>Casting</h2>
+
 <p>
 Casting é um recurso utilizado em Java para converter um tipo de dado em outro. Essa conversão pode ser feita de forma automática pelo compilador (conversão implícita), quando o tipo de dado de destino é compatível com o tipo de dado de origem, ou de forma manual (conversão explícita), utilizando o operador de casting.
 
