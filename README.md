@@ -120,3 +120,29 @@ O casting implícito é realizado automaticamente pelo compilador quando o tipo 
 double x = 10.5;
 int y = (int) x; // casting explícito
 ```
+
+<h2>Scanner</h2>
+
+<p>
+A classe Scanner do Java é utilizada para ler dados de entrada em um programa Java. Esses dados podem ser lidos a partir de várias fontes de entrada, como arquivos, fluxos de entrada, Strings e até mesmo a entrada do usuário através do teclado
+</p>
+
+```java
+public class ExemploScanner {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+        System.out.print("Digite sua idade: ");
+        int idade = scanner.nextInt();
+        System.out.print("Digite o valor que pretende investir esse mês: ");
+        double valor = scanner.nextDouble();
+
+        System.out.println(nome + " que tem " + idade + " anos, irá investir R$ " + valor + " esse mês.");
+
+        scanner.close();
+    }
+}
+```
+
