@@ -18,6 +18,7 @@ public class Read {
         int ageMovie = reading.nextInt();
 
         System.out.println(ageMovie);
+        
         /*
          * Scanner, uma entrada de dados
          */
@@ -27,5 +28,8 @@ public class Read {
         double noteMovie = reading.nextDouble();
 
         System.out.println(noteMovie);
+
+        reading.close();
+
     }
 }
