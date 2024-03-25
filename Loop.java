@@ -22,5 +22,7 @@ public class Loop {
             media += nota;
         }
         System.out.println("Média de avaliação: " + media / 3);
+
+        leitura.close();
     }
 }

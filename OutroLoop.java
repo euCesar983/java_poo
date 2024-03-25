@@ -26,5 +26,6 @@ public class OutroLoop {
 
         System.out.println("Média de avaliação: " + media / totalDeNotas);
 
+        leitura.close();
     }
 }
