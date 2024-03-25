@@ -146,3 +146,24 @@ public class ExemploScanner {
 }
 ```
 
+<h2>Laço de Repetição</h2>
+
+<p>
+Em Java, os laços de repetição são estruturas fundamentais para executar um bloco de código várias vezes. Existem três tipos principais de laços de repetição em Java:
+</p>
+
+```java
+for (int i = 0; i < 5; i++) {
+    // Bloco de código a ser repetido
+}
+
+int contador = 0;
+while (contador < 5) {
+    // Bloco de código a ser repetido
+    contador++;
+}
+
+```
+
+
+
