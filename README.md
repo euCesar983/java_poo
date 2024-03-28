@@ -164,7 +164,7 @@ while (contador < 5) {
 }
 
 ```
-<img src="/certificação/Certificacao-java.png" alt="Certificado de conclusão">
+<img src="/certificações/Certificacao-java.png" alt="Certificado de conclusão">
 
 
 
